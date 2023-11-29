@@ -1,5 +1,5 @@
 {
-  "name": "std-types",
+  "name": "@hywax/std-types",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@8.10.0",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "tsc && tsx scripts/build.ts",
     "lint": "eslint . --fix",
-    "release": "pnpm run build && changelogen --release && git push --follow-tags && pnpm publish"
+    "release": "pnpm run build && changelogen --release && git push --follow-tags && pnpm publish --access public"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.4",

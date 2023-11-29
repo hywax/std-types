@@ -12,13 +12,13 @@ Extended types for standard library JS.
 
 ```bash
 # Using pnpm
-pnpm add std-types
+pnpm add @hywax/std-types
 
 # Using yarn
-yarn add std-types
+yarn add @hywax/std-types
 
 # Using npm
-npm install std-types
+npm install @hywax/std-types
 ```
 
 ## Usage
@@ -26,11 +26,11 @@ npm install std-types
 Create a `std-types.d.ts` file in your project with these contents:
 
 ```ts
-import 'std-types'
+import '@hywax/std-types'
 
 // or
 
-import 'std-types/objects'
+import '@hywax/std-types/objects'
 ```
 
 ## Types
@@ -40,11 +40,11 @@ import 'std-types/objects'
 * `entries` - returns an array of a given object's own enumerable string-keyed property key-value pairs
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/std-types/latest.svg
-[npm-version-href]: https://npmjs.com/package/std-types
+[npm-version-src]: https://img.shields.io/npm/v/@hywax/std-types/latest.svg
+[npm-version-href]: https://npmjs.com/package/@hywax/std-types
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/std-types.svg
-[npm-downloads-href]: https://npmjs.com/package/std-types
+[npm-downloads-src]: https://img.shields.io/npm/dt/@hywax/std-types.svg
+[npm-downloads-href]: https://npmjs.com/package/@hywax/std-types
 
-[license-src]: https://img.shields.io/npm/l/std-types.svg
-[license-href]: https://npmjs.com/package/std-types
+[license-src]: https://img.shields.io/npm/l/@hywax/std-types.svg
+[license-href]: https://npmjs.com/package/@hywax/std-types
