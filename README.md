@@ -28,7 +28,8 @@ Create a `std-types.d.ts` file in your project with these contents:
 ```ts
 import 'std-types'
 
-// or 
+// or
+
 import 'std-types/objects'
 ```
 
