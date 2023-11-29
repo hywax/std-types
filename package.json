@@ -1,0 +1,35 @@
+{
+  "name": "std-types",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.10.0",
+  "description": "Extended types for standard library JS",
+  "license": "MIT",
+  "repository": "hywax/std-types",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && tsx scripts/build.ts",
+    "lint": "eslint . --fix",
+    "release": "pnpm run build && changelogen --release && git push --follow-tags && pnpm publish"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.4",
+    "@types/node": "^20.9.0",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.53.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.2.2"
+  }
+}
