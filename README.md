@@ -31,6 +31,7 @@ import '@hywax/std-types'
 // or
 
 import '@hywax/std-types/objects'
+import '@hywax/std-types/json'
 ```
 
 ## Types
@@ -38,6 +39,9 @@ import '@hywax/std-types/objects'
 **Objects:**
 * `keys` - returns an array of a given object's own enumerable string-keyed property names.
 * `entries` - returns an array of a given object's own enumerable string-keyed property key-value pairs
+
+**JSON:**
+* `parse` - constructing the JavaScript value or object described by the string.
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@hywax/std-types/latest.svg
