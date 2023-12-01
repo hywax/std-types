@@ -11,6 +11,16 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.umd.cjs"
+    },
+    "./objects": {
+      "types": "./dist/objects.d.ts",
+      "import": "./dist/objects.mjs",
+      "default": "./dist/objects.js"
+    },
+    "./json": {
+      "types": "./dist/json.d.ts",
+      "import": "./dist/json.mjs",
+      "default": "./dist/json.js"
     }
   },
   "main": "./dist/index.umd.cjs",
